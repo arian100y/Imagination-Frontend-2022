@@ -1,0 +1,26 @@
+.modal-container {
+  position: fixed;
+  z-index: 599;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px 3px 10px rgb(82, 82, 82);
+}
+
+.modal-background {
+  z-index: 560;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 750px) {
+  .modal-container {
+    width: 90vw;
+    height: auto;
+  }
+}

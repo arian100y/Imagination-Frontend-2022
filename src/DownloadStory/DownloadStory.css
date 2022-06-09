@@ -1,0 +1,33 @@
+.download-container {
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.download-title {
+  font-size: 45px;
+  font-weight: 900;
+  color: rgb(31, 31, 80);
+  margin-bottom: 0px;
+}
+.download-descargar {
+  font-size: 38px;
+  font-weight: 900;
+  color: rgb(117, 117, 117);
+  margin-bottom: 40px;
+}
+.download-button {
+  font-size: 30px;
+  background-color: rgb(201, 99, 99);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 5px 20px;
+  font-weight: 900;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.download-button:hover {
+  background-color: rgb(201, 123, 123);
+}
